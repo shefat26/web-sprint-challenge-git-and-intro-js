@@ -209,18 +209,18 @@ Practice accessing data above by console.log-ing following items:
 
 //(1) Name of the first artist (0th index) in the array
 
-//console.log(artists[0].name);
+console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
 
-//console.log(artists[2].bio);
+console.log(artists[2].bio);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 (not auto tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
 artists[8].name = 'Vincent Van Gogh'
-//console.log(artists);
+console.log(artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
@@ -237,7 +237,7 @@ function getArtistByIndex(array, number) {
   /*Your Code Here*/
 }
 //console.log('\nTask 2', getArtistByIndex(artists,9));
-getArtistByIndex(artists,9);
+console.log("Task-3",getArtistByIndex(artists,9));
 
 
 
@@ -266,7 +266,7 @@ function listOfNames(arr) {
   return result;
 
 }
-//console.log(artists);
+console.log(artists);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -298,7 +298,7 @@ function removeArtist(arr, number) {
 
   
 
-removeArtist( artists,0 );
+console.log("Task-5",removeArtist( artists,0 ));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -330,7 +330,7 @@ function addArtist(array,name,years,genre,nationality,bio) {
   return newArray
   
 }
-addArtist(artists, 'John Doe', '1988-2022', 'Full Stack Development', ' African American ', 'I have a background in customer service at Big RetailChain. I am attending BloomTech to become a Frontend Developer.'); 
+console.log(addArtist(artists, 'John Doe', '1988-2022', 'Full Stack Development', ' African American ', 'I have a background in customer service at Big RetailChain. I am attending BloomTech to become a Frontend Developer.')); 
 
 
 
@@ -360,7 +360,7 @@ function lotsOfArt(arr){
   return result;
   
 }
-lotsOfArt(artists);  
+console.log("Task-7",lotsOfArt(artists));  
 
 
 
@@ -424,7 +424,7 @@ function artistByCountry(arr , nationality){
   return result;
 }
 console.log("Task-9",artistByCountry(artists, "Spanish"));
-
+ 
 
 
 
